@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  height: 10vh;
+  align-items: center;
+  background-color: #800040;
+  border-bottom: solid 1px black;
+}
+
+.hi {
+  font-family: 'Great Vibes', cursive;
+  margin-right: 10vw;
+  font-size: 20px;
+  color: rgba(255,255,255,1);
+}
+
+.ho:hover {
+  color: rgba(255,255,255,0.5);
+}
+
+.mw {
+  margin-left: 10vw;
+  font-size: 40px;
+}
+
+.info{
+  display: flex;
+  width: 100vw;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.hp, .ap, .mp {
+  font-family: 'Comfortaa', cursive;
+  font-size: 25px;
+  color: #EAA221;
+  background-color: black;
+}
+
+.menu-photo {
+  width: 40vh;
+}
+
+.mp {
+  display: grid;
+  grid-template-areas:
+    "photo photo"
+    "text text"
+    "pic pic"
+    "txt txt";
+  column-gap: 5vw;
+}
+
+.menu-text{
+  text-align: center;
+  padding-top: 1vh;
+  padding-bottom: 5vh;
+}
+
+.ip--inactive {
+  display: none;
+}
